@@ -1,0 +1,41 @@
+body {
+    background: url(../res/img/background_5.png) no-repeat center center fixed;
+}
+
+.form-wrap {
+    box-sizing: border-box;
+    width: 500px;
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.txt {
+    padding: 20px;
+}
+
+.txt label {
+    text-align: left;
+}
+
+.txt input, txb textarea, select {
+    width: 100%;
+}
+
+input, textarea, button, select {
+    color: rgb(26, 26, 26);
+    padding: 10px;
+}
+
+select, optgroup, option, button {
+    color: rgb(26, 26, 26);
+}
+
+input:focus {
+    border: 3px solid rebeccapurple;
+}
+
+button {
+    color: ghostwhite;
+    background-color: rebeccapurple;
+}

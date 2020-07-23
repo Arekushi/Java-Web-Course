@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
+/* [All tags] */
+* {
+    font-family: 'Sora', sans-serif;
+    color: ghostwhite;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* [Header] */
+.header {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(26, 26, 26);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(26, 26, 26);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+.header a {
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.header a:hover {
+    background-color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.menu {
+    display: flex;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.menu li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* [Container] */
+.container {
+    position: relative;
+    background-color: rgba(26, 26, 26, 0.85);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    top: 61px;
+}
+
+/* [Flex] */
+.flex-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.item {
+    flex: 2 2 40%;
+    margin: 30px;
+}
+
+/* [Tags] */
+body {
+    background: url("../res/img/background_2.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+ul li {
+    padding: 5px;
+}
+
+mark {
+    color: #000;
+    background-color: #C098B2;
+}
+
+abbr[title] {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+ 
+p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 23px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #C098B2;
+}
+
+progress::-webkit-progress-value {
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    background-color: white;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(26, 26, 26, 0.85);
+}

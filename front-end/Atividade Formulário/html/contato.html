@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Formulário para contato</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="form-wrap">
+            <form role="form" action="#" method="POST">
+                <h1>Contato</h1>
+
+                <div class="txt">
+                    <label for="userName">Nome</label>
+                    <input type="text" name="userName" placeholder="Your name">
+                </div>
+
+                <div class="txt">
+                    <label for="userName">Email</label>
+                    <input type="email" name="userEmail" placeholder="email@email.com">
+                </div>
+
+                <div class="txt">
+                    <label for="assunto">Assunto</label>
+                    <select name="assunto" title="Assunto">
+                        <optgroup label="Bate-papo">
+                            <option value="0">Dúvida</option>
+                            <option value="1">Crítica</option>
+                            <option value="2">Recomendação</option>
+                        </optgroup>
+                    </select>
+                </div>
+            
+                <div class="txt">
+                    <h3>Gênero</h3>
+                    <ul class="flex-2">
+                        <li>
+                            <Label>Masculino</Label>
+                            <input type="radio" name="userGender">
+                        </li>
+                        <li>
+                            <Label>Feminino</Label>
+                            <input type="radio" name="userGender">
+                        </li>
+                        <li>
+                            <Label>Prefiro não informar</Label>
+                            <input type="radio" name="userGender">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="txt">
+                    <h3>Hobbys</h3>
+                    <ul class="flex-2">
+                        <li>
+                            <Label>Jogar</Label>
+                            <input type="checkbox" name="userHobby">
+                        </li>
+                        <li>
+                            <Label>Animes</Label>
+                            <input type="checkbox" name="userHobby">
+                        </li>
+                        <li>
+                            <Label>Estudo</Label>
+                            <input type="checkbox" name="userHobby">
+                        </li>
+                        <li>
+                            <Label>Programar</Label>
+                            <input type="checkbox" name="userHobby">
+                        </li>
+                        <li>
+                            <Label>Comer</Label>
+                            <input type="checkbox" name="userHobby">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="txt">
+                    <p style="text-align: center;" for="comentarios">Comentários</p>
+                    <textarea rows="4" column="50" name="comentarios" style="resize: vertical;"></textarea>
+                </div>
+
+                <div class="buttons">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
