@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'PixelOperator';
+    src: url(../res/font/PixelOperator.ttf);
+}
+
+h1 {
+    font-size: 1em;
+}
+
+body {
+    background-color: #cf5385;
+}
+
+* {
+    font-family: 'PixelOperator';
+    color: white;
+}
+
+select {
+    color: #cf5385;
+}

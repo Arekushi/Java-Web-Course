@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'PixelOperator';
+    src: url(../res/font/PixelOperator.ttf);
+}
+
+html, body, .container, .row, .col-6, .card {
+    background-color: #54a0e8;
+}
+
+* {
+    
+    font-family: 'PixelOperator';
+    color: white;
+}
+
+.card {
+    border: none;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    width: 200px;
+    margin: 0 auto;
+    border: 3px solid white;
+}
+
+.player-image {
+    border-radius: 50%;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.play {
+    font-size: 3em;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.block {
+    background-color: white;
+    font-size: 4em;
+    margin: 3px;
+    height: 150px;
+    width: 150px;
+    color: #54a0e8;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+}
+
+#one-turn {
+    display: none;
+}
+
+#two-turn {
+    display: none;
+}

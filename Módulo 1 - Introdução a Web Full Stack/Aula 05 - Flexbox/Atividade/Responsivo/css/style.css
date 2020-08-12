@@ -1,0 +1,115 @@
+/* [Tags] */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: ghostwhite;
+    text-shadow: 1px 1px 0.1px rgba(10, 10, 10);
+}
+
+body { 
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+h1 {
+    text-align: center;
+}
+
+/* [Header] */
+.header {
+    background-color: #6f32a8;
+    border: 3px solid #331352;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* [Container] */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    border: 3px solid ghostwhite;
+    background-color: #9c6dcf;
+    border: 3px solid #6f32a8;
+}
+
+/* [Caixas] */
+.caixa {
+    height: auto;
+    text-align: center;
+}
+
+.caixa h2 {
+    font-size: 2em;
+}
+
+.caixa strong {
+    font-size: 0.9375em;
+}
+
+.caixa-a {
+    background-color: #d62258;
+    border: 3px solid #7a1131;
+    width: 20.83%;
+    /*width: auto;*/
+}
+
+.caixa-b {
+    background-color: #246de3;
+    border: 3px solid #103778;
+    width: 66.66%;
+    /*width: auto;*/
+    margin: 0 3.125%;
+}
+
+.caixa-c {
+    background-color: #22d63a;
+    border: 3px solid #0c6117;
+    width: 13%;
+    /*width: auto;*/
+}
+
+/* [Media Queries] */
+@media screen and (min-width: 900px) {
+    
+    .header {
+        padding: 20px;
+        max-width: 95vw;
+    }
+    .container {
+        padding: 20px;
+        max-width: 95vw;
+    }
+
+    .caixa-a {
+        float: left;
+        width: 40%;
+    }
+
+    .caixa-b {
+        float: right;
+        width: 55%;
+        margin: 0px;
+    }
+
+    .caixa-c {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .caixa {
+        width: 100%;
+        margin: 20px;
+    }
+
+    body {
+        font-size: 24.125px;
+    }
+}

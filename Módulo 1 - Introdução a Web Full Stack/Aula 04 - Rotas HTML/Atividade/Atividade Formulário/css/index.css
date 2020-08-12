@@ -1,0 +1,14 @@
+/* [Minha foto] */
+.picture > img {
+    width: 50%;
+    border-radius: 50%;
+    border: 3px solid ghostwhite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* [Skills] */
+.skills li {
+    display: flex;
+    align-items: center;
+}
